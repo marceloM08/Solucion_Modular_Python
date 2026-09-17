@@ -1,4 +1,4 @@
-def determinar_tipo_pasajero():
+def detPassType():
     print("Tipos de pasajero")
     print("1. Adulto  (0%)")
     print("2. Niño  (20%)")
@@ -16,10 +16,10 @@ def determinar_tipo_pasajero():
             return "Tercera edad", 25
         else:
             print("Tipo no válido.")
-            return determinar_tipo_pasajero()
+            return detPassType()
     except:
         print("Error al elegir el tipo de pasajero.")
-        return determinar_tipo_pasajero()
+        return detPassType()
 def calcular_descuentos(precio, cantidad, porcentaje):
     descuento_boleto = precio * porcentaje / 100
     descuento_total = descuento_boleto * cantidad

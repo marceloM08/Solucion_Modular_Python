@@ -11,9 +11,12 @@ def calcular_costo_total(ruta, cantidad, descuento):
         return 0
     finally:
         print("Finalizó el cálculo del costo total.")
-#el pass en esta parte del codigo es ocupada para rellenar y de iguial forma valide la sintaxis.
 def mostrar_resumen_reserva(ruta, cantidad, tipo, costo_total):
-    pass
+    print("-- RESUMEN DE RESERVA --")
+    print(f"Ruta : {ruta}")
+    print(f"Cantidad de pasajeros: {cantidad}")
+    print(f"Tipo de pasajeros: {tipo}")
+    print(f"Costo total: {costo_total}")
 
 def validar_opciones(ruta, cantidad, tipo, costo_total):
     pass

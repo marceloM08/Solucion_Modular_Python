@@ -1,6 +1,6 @@
 def calcular_costo_total(ruta, cantidad, descuento):
     try:
-        precio_base = 100
+        precio_base = 50
         costo = (precio_base * cantidad) - descuento
         return costo
     except ValueError:

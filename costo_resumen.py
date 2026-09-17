@@ -1,5 +1,4 @@
-
-from tipo_descuento import calcular_descuentos
+from tipo_Descuento import calcular_descuentos
 def validar_opciones(ruta, precio, cantidad, tipo):
     try:
         if ruta == "" or precio <= 0:

@@ -23,4 +23,4 @@ def determinar_tipo_pasajero():
 def calcular_descuentos(precio, cantidad, porcentaje):
     descuento_boleto = precio * porcentaje / 100
     descuento_total = descuento_boleto * cantidad
-    return descuento_boleto, descuento_t
+    return descuento_boleto, descuento_total
